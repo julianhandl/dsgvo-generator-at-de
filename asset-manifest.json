@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dsgvo-generator-at-de/static/css/main.9999f260.chunk.css",
-    "main.js": "/dsgvo-generator-at-de/static/js/main.a8ce1529.chunk.js",
-    "main.js.map": "/dsgvo-generator-at-de/static/js/main.a8ce1529.chunk.js.map",
+    "main.js": "/dsgvo-generator-at-de/static/js/main.cb3a4ffc.chunk.js",
+    "main.js.map": "/dsgvo-generator-at-de/static/js/main.cb3a4ffc.chunk.js.map",
     "runtime-main.js": "/dsgvo-generator-at-de/static/js/runtime-main.a89d9a04.js",
     "runtime-main.js.map": "/dsgvo-generator-at-de/static/js/runtime-main.a89d9a04.js.map",
     "static/js/2.c98184a7.chunk.js": "/dsgvo-generator-at-de/static/js/2.c98184a7.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a89d9a04.js",
     "static/js/2.c98184a7.chunk.js",
     "static/css/main.9999f260.chunk.css",
-    "static/js/main.a8ce1529.chunk.js"
+    "static/js/main.cb3a4ffc.chunk.js"
   ]
 }
