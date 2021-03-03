@@ -88,9 +88,9 @@ function App() {
 			<div className={styles.column_right}>
 				<div className={styles.disclaimer}>
 					<div className={styles.disclaimer_headline}>Wichtig!</div>
-					<p>Die Benutzung dieser Daten erfolgt auf eine Gefahrt. Sie selbst sind immer noch die letzte Instanz der Prüfung. Es wird keine Garantie für Richtigkeit und Aktualität übernommen.</p>
+					<p>Die Benutzung dieser Daten erfolgt auf eine Gefahr. Sie selbst sind immer noch die letzte Instanz der Prüfung. Es wird keine Garantie für Richtigkeit und Aktualität übernommen.</p>
 					<p><strong>Die IP Anonymisierung von Google MUSS verwendet werden!</strong></p>
-					<p><strong>Die Einverständniss zur Verwendung von Cookies MUSS erfolgen! Dienste wie Google Analytics / Facebook / Youtube ... dürfen erst danach verwendet werden!</strong></p>
+					<p><strong>Das Einverständnis zur Verwendung von Cookies MUSS erfolgen! Dienste wie Google Analytics / Facebook / Youtube ... dürfen erst danach verwendet werden!</strong></p>
 				</div>
 				<h1>Datenschutzerklärung</h1>
 				<div>
@@ -98,17 +98,17 @@ function App() {
 					<div dangerouslySetInnerHTML={{ __html: companyAddress.replace(/\r?\n/g, '<br />') }}></div>
 				</div>
 				<p>Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TKG 2003). In diesen Datenschutzinformationen informieren wir Sie über die wichtigsten Aspekte der Datenverarbeitung im Rahmen unserer Website.</p>
-				<h2>Veranwortlicher</h2>
+				<h2>Verantwortlicher</h2>
 				<p>Verantwortlicher für die Datenverarbeitung ist {companyNameArtikel} {companyName} mit Sitz in {companyAddress.replace(/\r?\n/g, ', ')}. Sie erreichen uns telefonisch unter {companyPhone}, per Mail unter {companyMail} oder postalisch unter der Anschrift {companyAddress.replace(/\r?\n/g, ', ')}.</p>
 				<h2>Datensicherheit</h2>
 				<p>Wir treffen nach Maß des Art 32 DSGVO entsprechende Vorkehrungen zum Schutz Ihrer personenbezogenen Daten. Diese betreffen insbesondere den Schutz vor unerlaubtem, rechtswidrigem oder auch zufälligem Zugriff, Verarbeitung, Verlust, Verwendung und Manipulation.</p>
 				<h2>Webseite</h2>
 				<h3>Personenbezogene Daten, Zweck der Datenverarbeitung und Rechtsgrundlage</h3>
-				<p>Personenbezogene Daten sind Angaben, die eindeutig einer Person zugeordnet werden können. Dazu gehören unter anderem Angaben wie vollständiger Name, Anschrift, E-Mail und Telefonnummer. Beim einem Besuch unserer Website werden aus technischen Gründen automatisch weitere Daten erfasst (IP-Adresse, Beginn und Ende der Sitzung, Datum und Uhrzeit der Anfrage, angesteuerte Unterseite auf unserer Webseite, Art und Version des Browsers, Betriebssystem, Referrer URL). Diese technischen Informationen können im Einzelfall personenbezogene Daten sein. Im Regelfall verwenden wir diese technischen Informationen nur, wenn dies (aus technischen Gründen) für den Betrieb und Schutz unserer Website vor Angriffen und Missbrauch erforderlich ist sowie pseudonymisiert oder anonymisiert für statistische Zwecke.</p>
-				{isShop ? <p>Zum Zweck der Vertragsabwicklung werden folgende Daten auch bei uns gespeichert: Vorname, Nachname, Adresse, E-Mail-Adresse, Telefonnummer, Firmenname, UID-Nummer. Die von Ihnen bereit gestellten Daten sind zur Vertragserfüllung bzw. zur Durchführung vorvertraglicher Maßnahmen und zur ordnungsgemäßen Rechnungslegung erforderlich. Ohne diese Daten können wir den Vertrag mit Ihnen nicht abschließen.</p> : null}
-				<p>Wenn Sie per Anfrageformular auf der Website oder per E-Mail-Kontakt mit uns aufnehmen, werden Ihre angegebenen Daten (Vorname, Nachname, Adresse, Telefonnummer, E-Mailadresse) zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen sechs Monate bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
-Eine Verarbeitung Ihrer personenbezogenen Daten für bestimmte Zwecke (z. B. Nutzung Ihrer E-Mail-Adresse für Newsletter, Werbung) kann auch aufgrund Ihrer Einwilligung erfolgen. Sie können Ihre Einwilligung mit Wirkung für die Zukunft jederzeit widerrufen. Dies gilt auch für den Widerruf von Einwilligungserklärungen, die vor der Geltung der DSGVO, uns gegenüber erteilt worden sind. Über die Zwecke und über die Konsequenzen eines Widerrufs oder der Nichterteilung einer Einwilligung werden Sie gesondert im entsprechenden Text der Einwilligung informiert.</p>
-				<p>Zur Erfüllung von Verträgen bzw. vorvertragliche Maßnahmen und darüber hinaus verarbeiten wir Ihre Daten (Vorname, Nachname, Adresse, Telefonnummer, E-Mailadresse) gegebenenfalls, wenn es erforderlich ist, um berechtigte Interessen von uns oder Dritten zu wahren, insbesondere für folgende Zwecke:</p>
+				<p>Personenbezogene Daten sind Angaben, die eindeutig einer Person zugeordnet werden können. Dazu gehören unter anderem Angaben wie vollständiger Name, Anschrift, E-Mail und Telefonnummer. Bei einem Besuch unserer Website werden aus technischen Gründen automatisch weitere Daten erfasst (IP-Adresse, Beginn und Ende der Sitzung, Datum und Uhrzeit der Anfrage, angesteuerte Unterseite auf unserer Webseite, Art und Version des Browsers, Betriebssystem, Referrer URL). Diese technischen Informationen können im Einzelfall personenbezogene Daten sein. Im Regelfall verwenden wir diese technischen Informationen nur, wenn dies (aus technischen Gründen) für den Betrieb und Schutz unserer Website vor Angriffen und Missbrauch erforderlich ist sowie pseudonymisiert oder anonymisiert für statistische Zwecke.</p>
+				{isShop ? <p>Zum Zweck der Vertragsabwicklung werden folgende Daten auch bei uns gespeichert: Vorname, Nachname, Adresse, E-Mail, Telefonnummer, Firmenname, UID-Nummer. Die von Ihnen bereit gestellten Daten sind zur Vertragserfüllung bzw. zur Durchführung vorvertraglicher Maßnahmen und zur ordnungsgemäßen Rechnungslegung erforderlich. Ohne diese Daten können wir den Vertrag mit Ihnen nicht abschließen.</p> : null}
+				<p>Wenn Sie per Anfrageformular auf der Website oder per E-Mail Kontakt mit uns aufnehmen, werden Ihre angegebenen Daten (Vorname, Nachname, Adresse, Telefonnummer, E-Mail) zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen sechs Monate bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
+Eine Verarbeitung Ihrer personenbezogenen Daten für bestimmte Zwecke (z. B. Nutzung Ihrer E-Mail für Newsletter, Werbung) kann auch aufgrund Ihrer Einwilligung erfolgen. Sie können Ihre Einwilligung mit Wirkung für die Zukunft jederzeit widerrufen. Dies gilt auch für den Widerruf von Einwilligungserklärungen, die vor der Geltung der DSGVO, uns gegenüber erteilt worden sind. Über die Zwecke und über die Konsequenzen eines Widerrufs oder der Nichterteilung einer Einwilligung werden Sie gesondert im entsprechenden Text der Einwilligung informiert.</p>
+				<p>Zur Erfüllung von Verträgen bzw. vorvertragliche Maßnahmen und darüber hinaus verarbeiten wir Ihre Daten (Vorname, Nachname, Adresse, Telefonnummer, E-Mail) gegebenenfalls, wenn es erforderlich ist, um berechtigte Interessen von uns oder Dritten zu wahren, insbesondere für folgende Zwecke:</p>
 				<ul>
 					<li>Beantwortung von Anfragen</li>
 					<li>Technische Administration</li>
@@ -122,7 +122,7 @@ Eine Verarbeitung Ihrer personenbezogenen Daten für bestimmte Zwecke (z. B. Nut
 				{isShop ? <p>Wir weisen darauf hin, dass zum Zweck des einfacheren Einkaufsvorganges und zur späteren Vertragsabwicklung vom Webshop-Betreiber im Rahmen von Cookies die IP-Daten des Anschlussinhabers gespeichert werden, ebenso wie Name, Anschrift und Kreditkartennummer des Käufers.</p> : null}
 				<p>Die Rechtsgrundlagen der Datenverarbeitung sind:</p>
 				<ul>
-					<li>Vertragsanbahnung- und Erfüllung gemäß Art 6 Abs 1 lit b DSGVO</li>
+					<li>Vertragsabwicklung gemäß Art 6 Abs 1 lit b DSGVO</li>
 					<li>Ihre allfällige Einwilligung gemäß Art 6 Abs 1 lit a DSGVO</li>
 					<li>berechtigtes Interesse Art 6 Abs 1 lit f DSGVO</li>
 				</ul>
