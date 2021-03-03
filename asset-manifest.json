@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/dsgvo-generator-at-de/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/dsgvo-generator-at-de/static/js/main.09d09418.chunk.js",
-    "main.js.map": "/dsgvo-generator-at-de/static/js/main.09d09418.chunk.js.map",
-    "runtime-main.js": "/dsgvo-generator-at-de/static/js/runtime-main.07805071.js",
-    "runtime-main.js.map": "/dsgvo-generator-at-de/static/js/runtime-main.07805071.js.map",
-    "static/js/2.c432f6d6.chunk.js": "/dsgvo-generator-at-de/static/js/2.c432f6d6.chunk.js",
-    "static/js/2.c432f6d6.chunk.js.map": "/dsgvo-generator-at-de/static/js/2.c432f6d6.chunk.js.map",
-    "static/js/3.7592ad60.chunk.js": "/dsgvo-generator-at-de/static/js/3.7592ad60.chunk.js",
-    "static/js/3.7592ad60.chunk.js.map": "/dsgvo-generator-at-de/static/js/3.7592ad60.chunk.js.map",
+    "main.css": "/dsgvo-generator-at-de/static/css/main.9999f260.chunk.css",
+    "main.js": "/dsgvo-generator-at-de/static/js/main.a8ce1529.chunk.js",
+    "main.js.map": "/dsgvo-generator-at-de/static/js/main.a8ce1529.chunk.js.map",
+    "runtime-main.js": "/dsgvo-generator-at-de/static/js/runtime-main.a89d9a04.js",
+    "runtime-main.js.map": "/dsgvo-generator-at-de/static/js/runtime-main.a89d9a04.js.map",
+    "static/js/2.c98184a7.chunk.js": "/dsgvo-generator-at-de/static/js/2.c98184a7.chunk.js",
+    "static/js/2.c98184a7.chunk.js.map": "/dsgvo-generator-at-de/static/js/2.c98184a7.chunk.js.map",
+    "static/js/3.76cfe3bf.chunk.js": "/dsgvo-generator-at-de/static/js/3.76cfe3bf.chunk.js",
+    "static/js/3.76cfe3bf.chunk.js.map": "/dsgvo-generator-at-de/static/js/3.76cfe3bf.chunk.js.map",
     "index.html": "/dsgvo-generator-at-de/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/dsgvo-generator-at-de/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.c432f6d6.chunk.js.LICENSE.txt": "/dsgvo-generator-at-de/static/js/2.c432f6d6.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/dsgvo-generator-at-de/static/media/logo.6ce24c58.svg"
+    "static/css/main.9999f260.chunk.css.map": "/dsgvo-generator-at-de/static/css/main.9999f260.chunk.css.map",
+    "static/js/2.c98184a7.chunk.js.LICENSE.txt": "/dsgvo-generator-at-de/static/js/2.c98184a7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.07805071.js",
-    "static/js/2.c432f6d6.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.09d09418.chunk.js"
+    "static/js/runtime-main.a89d9a04.js",
+    "static/js/2.c98184a7.chunk.js",
+    "static/css/main.9999f260.chunk.css",
+    "static/js/main.a8ce1529.chunk.js"
   ]
 }
