@@ -1,6 +1,7 @@
 {
   "name": "dsgvo-generator-at-de",
   "version": "0.1.0",
+  "license": "GNU GPLv3",
   "private": true,
   "homepage": "https://julianhandl.github.io/dsgvo-generator-at-de",
   "dependencies": {

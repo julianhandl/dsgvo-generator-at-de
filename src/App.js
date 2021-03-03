@@ -21,6 +21,7 @@ function App() {
 	return (
 		<div className={styles.container}>
 			<div className={styles.column_left}>
+				<a href="https://github.com/julianhandl/dsgvo-generator-at-de">Dieses Projekt auf GitHub</a>
 				<h1>DSGVO Text Generator<br /><small>für Webseiten</small></h1>
 				<div className={styles.field}>
 					<label htmlFor="companyArtikel">Anrede des Betreibers</label><br />
